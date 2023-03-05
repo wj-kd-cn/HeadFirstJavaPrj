@@ -26,6 +26,10 @@ public class PhraseOMatic {
         // 拼接专家术语
         String phrase = wordListOne[rand1] + " " +
                 wordListTwo[rand2] + " " + wordListThree[rand3];
+        //输出专家术语和随机数
+        System.out.println("rand1 " + rand1);
+        System.out.println("rand2 " + rand2);
+        System.out.println("rand3 " + rand3);
         System.out.println("What we need is a " + phrase);
     }
 }
