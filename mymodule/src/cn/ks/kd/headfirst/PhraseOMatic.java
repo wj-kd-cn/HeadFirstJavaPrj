@@ -19,9 +19,11 @@ public class PhraseOMatic {
         int threeLength = wordListThree.length;
 
         // ׂ生成随机数
-        int rand1 = (int) (Math.random() * oneLength);
-        int rand2 = (int) (Math.random() * twoLength);
-        int rand3 = (int) (Math.random() * threeLength);
+        double x = Math.random();
+        System.out.println("x " + x);
+        int rand1 = (int)(x * oneLength);
+        int rand2 = (int)(x * twoLength);
+        int rand3 = (int)(x * threeLength);
 
         // 拼接专家术语
         String phrase = wordListOne[rand1] + " " +
