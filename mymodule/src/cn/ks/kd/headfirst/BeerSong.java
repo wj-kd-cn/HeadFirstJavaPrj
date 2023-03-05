@@ -2,7 +2,7 @@ package cn.ks.kd.headfirst;
 
 public class BeerSong {
     public static void main(String[] args) {
-        int beerNum = 999999999;
+        int beerNum = 99999;
         String word = "bottles";
         while(beerNum > 0){
             if(beerNum == 1){
