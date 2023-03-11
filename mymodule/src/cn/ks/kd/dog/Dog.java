@@ -6,6 +6,13 @@ public class Dog {
     String breed;
 
     void bark(){
-        System.out.println(name + "  Ruff Ruff !!!!");
+        if (size > 60){
+            System.out.println(name + "  Wooof Wooof !!!!");
+        }else if (size > 20){
+            System.out.println(name + "  Ruff Ruff !!!!");
+        }else{
+            System.out.println(name + "  Yip Yip !!!!");
+        }
+
     }
 }

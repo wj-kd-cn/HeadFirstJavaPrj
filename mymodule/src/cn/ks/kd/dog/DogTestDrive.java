@@ -13,10 +13,12 @@ public class DogTestDrive {
         olddogs[1].name = "olddog2";
         olddogs[2] = new Dog();
         olddogs[2].name = "olddog3";
+        olddogs[2].size = 10;
         olddogs[3] = new Dog();
         olddogs[3].name = "olddog4";
         olddogs[4] = new Dog();
         olddogs[4].name = "olddog5";
+        olddogs[4].size = 70;
         olddogs[5] = new Dog();
         olddogs[5].name = "olddog6";
         olddogs[6] = new Dog();
@@ -27,6 +29,7 @@ public class DogTestDrive {
         olddogs[8].name = "olddog9";
         olddogs[9] = new Dog();
         olddogs[9].name = "olddog10";
+        olddogs[9].size = 80;
         while(true){
             if(i < 10){
                 olddogs[i].bark();
