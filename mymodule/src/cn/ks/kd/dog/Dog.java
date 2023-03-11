@@ -6,6 +6,6 @@ public class Dog {
     String breed;
 
     void bark(){
-        System.out.print("Ruff Ruff !!!!");
+        System.out.println(name + "  Ruff Ruff !!!!");
     }
 }
