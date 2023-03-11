@@ -9,9 +9,9 @@ public class GuessGame {
         p2 = new Player();
         p3 = new Player();
 
-        int guessp1 = 0;
-        int guessp2 = 0;
-        int guessp3 = 0;
+        int guessp1;
+        int guessp2;
+        int guessp3;
 
         boolean p1isRight = false;
         boolean p2isRight = false;
