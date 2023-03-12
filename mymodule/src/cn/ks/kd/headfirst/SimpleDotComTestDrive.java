@@ -14,12 +14,12 @@ public class SimpleDotComTestDrive {
     }
     public static void testDrive2(){
         SimpleDotCom sdc = new SimpleDotCom();
-        int vradam = (int)(Math.random() * 10);
-        System.out.println("cell1: " + vradam + 1 + " cell2 " + vradam + 2 + " cell3 " + vradam + 3);
-        int[] locations = {vradam + 1,vradam + 2 ,vradam + 3};
+        int vradom = (int)(Math.random() * 5);
+        System.out.println("cell1: " + (vradom + 1) + " cell2 " + (vradom + 2) + " cell3 " + (vradom + 3));
+        int[] locations = {vradom + 1,vradom + 2 ,vradom + 3};
         sdc.setLocationCells(locations);
         GameHelper vgh = new GameHelper();
-        String userGuess = vgh.getUserInput("输入一个数字：");
+        String userGuess = vgh.getUserInput("请输入一个数字：");
         System.out.println("SimpleDotComTestDrive: " + sdc.checkYourSelf(userGuess));
 
     }
