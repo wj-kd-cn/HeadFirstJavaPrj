@@ -12,6 +12,7 @@ public class SimpleDotCom {
         int guess = Integer.parseInt(stringGuess);
         String result = "miss";
         for(int cell:locationCells){
+
             if (guess == cell){
                 result = "hit";
                 numOfHits = numOfHits + 1;
