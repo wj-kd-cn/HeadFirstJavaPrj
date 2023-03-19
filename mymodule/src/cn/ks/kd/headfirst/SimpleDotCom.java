@@ -1,3 +1,4 @@
+
 package cn.ks.kd.headfirst;
 
 public class SimpleDotCom {
@@ -12,14 +13,16 @@ public class SimpleDotCom {
         int guess = Integer.parseInt(stringGuess);
         String result = "miss";
         for(int cell:locationCells){
-            System.out.println("guess: " + guess);
+            //System.out.println("guess: " + guess);
 
             if (guess == cell){
                 result = "hit";
                 numOfHits = numOfHits + 1;
                 break;
             }
+
         }
+        System.out.println("numOfHits: " + numOfHits);
         if(numOfHits == locationCells.length){
             result = "kill";
         }
