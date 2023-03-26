@@ -6,5 +6,6 @@ public class Dog extends Canine{
         adg.makeNoise();
         adg.setFood("bone");
         adg.eat();
+
     }
 }
