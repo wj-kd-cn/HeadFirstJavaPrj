@@ -5,6 +5,7 @@ public class Sheep extends Animal{
         Sheep aasp = new Sheep();
         aasp.setFood("grass");
         aasp.eat();
+        System.out.println("test");
 
     }
 }
