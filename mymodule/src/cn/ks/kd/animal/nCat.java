@@ -1,7 +1,6 @@
 package cn.ks.kd.animal;
 
-public class nDog extends abCanine{
-
+public class nCat extends abCanine{
     private String name;
 
     public void setName(String aname){
@@ -26,12 +25,4 @@ public class nDog extends abCanine{
     }
 
 
-
-    public static void main(String[] args) {
-        nDog andg = new nDog();
-        andg.eat();
-        andg.makeNoise();
-        andg.walking();
-
-    }
 }
