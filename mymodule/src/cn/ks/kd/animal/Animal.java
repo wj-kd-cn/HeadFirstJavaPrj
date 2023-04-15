@@ -8,6 +8,10 @@ public class Animal {
     String location;
     String boundaries;
 
+    public Animal(){
+        System.out.println("make a animal");
+    }
+
     public void setFood(String food) {
         this.food = food;
     }
