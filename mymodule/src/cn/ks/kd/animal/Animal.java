@@ -12,6 +12,10 @@ public class Animal {
         System.out.println("make a animal");
     }
 
+    public Animal(String vname){
+        System.out.println("make a animal: " + vname);
+    }
+
     public void setFood(String food) {
         this.food = food;
     }
