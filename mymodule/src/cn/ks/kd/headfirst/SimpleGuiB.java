@@ -34,9 +34,6 @@ public class SimpleGuiB implements ActionListener, MouseMotionListener {
                 jb1.setText("i've been  clicked ");
 
 
-
-
-
     }
 
     public void mouseDragged(MouseEvent e){
