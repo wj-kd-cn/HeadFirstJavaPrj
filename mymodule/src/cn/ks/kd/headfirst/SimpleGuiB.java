@@ -30,19 +30,10 @@ public class SimpleGuiB implements ActionListener, MouseMotionListener {
     }
 
     public void actionPerformed(ActionEvent ae1){
-        int i = 1;
 
-        while(true){
-            i = i + 1;
-            if (i%2 == 0){
                 jb1.setText("i've been  clicked ");
-            }else{
-                jb1.setText("i've free ");
-            }
-            if(i == 100){
-                break;
-            }
-        }
+
+
 
 
 
