@@ -14,7 +14,6 @@ public class MusicTest {
 
         }
         out.println("we had a sequencer");
-
     }
   
     public static void main(String[] args) {
