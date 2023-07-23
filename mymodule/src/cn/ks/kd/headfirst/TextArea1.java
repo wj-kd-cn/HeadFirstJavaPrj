@@ -8,6 +8,7 @@ import java.awt.event.ActionListener;
 public  class TextArea1 implements ActionListener {
 
     JTextArea text;
+    int i = 1;
 
     public static void main(String[] args) {
         TextArea1 ta1 = new TextArea1();
@@ -36,7 +37,10 @@ public  class TextArea1 implements ActionListener {
 
     }
     public void actionPerformed(ActionEvent e){
-        text.append("button clicked \n");
+        text.append(i + "button clicked \n");
+        i = i + 1;
+
+
     }
 
 }
